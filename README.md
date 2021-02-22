@@ -38,7 +38,7 @@ Describe and show how to run the tests with code examples.
 
 ## How to use?
 
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
+`deno run example/path_to_file`
 
 ## Contribute
 
