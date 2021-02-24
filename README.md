@@ -1,5 +1,7 @@
 # Denosaur
 
+![deno-icon](https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Deno.svg/240px-Deno.svg.png)
+
 A side project investigating [Deno](https://deno.land/)
 
 ## Motivation
@@ -9,10 +11,6 @@ concepts as a package.json and integrating bundlers, formatters and test
 runners. After finding [this](youtube.com/watch?v=M3BM9TB-8yA&ab_channel=JSConf)
 video, I thought why not explore Deno.
 
-## Screenshots
-
-![deno-icon](https://deno.land/logo.svg)
-
 ## Tech/framework used
 
 Built with
@@ -21,45 +19,27 @@ Built with
 
 ## Features
 
-What makes your project stand out?
-
-## Code Example
-
-Show what the library does as concisely as possible, developers should be able
-to figure out **how** your project solves their problem by looking at the code
-example. Make sure the API you are showing off is obvious, and that your code is
-short and concise.
+The project lists all the basic Deno examples given in the tutorial.
 
 ## Installation
 
-Provide step by step series of examples and explanations about how to get a
-development env running.
-
-## API Reference
-
-Depending on the size of the project, if it is small and simple enough the
-reference docs can be added to the README. For medium size to larger projects it
-is important to at least provide a link to where the API reference docs live.
+Follow [this](https://deno.land/manual@v1.7.5/getting_started/installation) guide for getting Deno on your machine
 
 ## Tests
 
-Describe and show how to run the tests with code examples.
+Deno has a builtin test runner! Simply run `deno test`
 
 ## How to use?
 
-`deno run example/path_to_file`
+`deno run --permission-needed example/path_to_file`
 
 ## Contribute
 
-Let people know how they can contribute into your project. A
-[contributing guideline](https://github.com/zulip/zulip-electron/blob/master/CONTRIBUTING.md)
-will be a big plus.
+Get a pull request up for any changes you want to see :)
 
 ## Credits
 
-Give proper credits. This could be a link to any repo which inspired you to
-build this project, any blogposts or links to people who contrbuted in this
-project.
+Inspired by [Ryan Dahl's](https://en.wikipedia.org/wiki/Ryan_Dahl) [talk](https://www.youtube.com/watch?v=M3BM9TB-8yA&ab_channel=JSConf) at JSCONF.
 
 ## License
 
