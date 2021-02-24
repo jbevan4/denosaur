@@ -1,4 +1,4 @@
-function writeJson(path: string, data: object): string {
+function writeJson(path: string, data: Record<string, unknown>): string {
   try {
     Deno.writeTextFileSync(path, JSON.stringify(data));
 
