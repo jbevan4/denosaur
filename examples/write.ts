@@ -1,5 +1,11 @@
-const write = Deno.writeTextFile("./hello.txt", "Hello World!");
+function writeJson(path: string, data: object): string {
+  try {
+    Deno.writeTextFileSync(path, JSON.stringify(data));
 
-await write;
+    return "Written to " + path;
+  } catch (e) {
+    return e.message;
+  }
+}
 
-console.log("File written to ./hello.txt");
+console.log(writeJson("./data.json", { hello: "World" }));
