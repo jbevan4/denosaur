@@ -1,12 +1,11 @@
-let first_response = await fetch("https://api.github.com/users/denoland");
-console.log(await first_response.json())
+const firstResponse = await fetch("https://api.github.com/users/denoland");
+console.log(await firstResponse.json());
 
-let second_response = await fetch("https://deno.land/");
-console.log(await second_response.text())
+const secondResponse = await fetch("https://deno.land/");
+console.log(await secondResponse.text());
 
 try {
-    let third_response = await fetch("https://does.not.exist/");
-
-} catch(error){
-    console.log(error.message)
+  await fetch("https://does.not.exist/");
+} catch (error) {
+  console.log(error.message);
 }
